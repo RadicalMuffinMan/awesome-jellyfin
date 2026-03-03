@@ -64,6 +64,31 @@ If an image is no longer available or out of date, please create an [issue](http
 
 ---
 
+## [evergarden](https://github.com/everviolet/jellyfin) by everviolet
+
+[` 🔵 Get this Theme `](https://github.com/everviolet/jellyfin)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/everviolet/jellyfin/raw/main/assets/summer.webp" />
+    </td>
+    <td>
+      <img src="https://github.com/everviolet/jellyfin/raw/main/assets/spring.webp" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/everviolet/jellyfin/raw/main/assets/fall.webp" />
+    </td>
+    <td>
+      <img src="https://github.com/everviolet/jellyfin/raw/main/assets/winter.webp" />
+    </td>
+  </tr>
+</table>
+
+---
+
 ## [finimalism](https://github.com/tedhinklater/finimalism) by tedhinklater
 
 [` 🔵 Get this Theme `](https://github.com/tedhinklater/finimalism)
@@ -235,6 +260,31 @@ Better Movie/TV page layout, improved card animation on hover. [` 🔵 Get this 
     </td>
     <td>
       <img src="https://raw.githubusercontent.com/Tetrax-10/jellyfin-better-styles/main/assets/cards.gif" />
+    </td>
+  </tr>
+</table>
+
+---
+
+## [NeutralFin](https://github.com/KartoffelChipss/NeutralFin) by KartoffelChipss
+
+NeutralFin is a custom Jellyfin theme based on [lscambo13's ElegantFin](https://github.com/lscambo13/ElegantFin), featuring a sleek black and grey color scheme for a more neutral and modern look. [` 🔵 Get this Theme `](https://github.com/KartoffelChipss/NeutralFin)
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/KartoffelChipss/NeutralFin/raw/main/assets/neutralfin-movie2.webp" />
+    </td>
+    <td>
+      <img src="https://github.com/KartoffelChipss/NeutralFin/raw/main/assets/neutralfin-home.webp" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/KartoffelChipss/NeutralFin/raw/main/assets/neutralfin-movies.webp" />
+    </td>
+    <td>
+      <img src="https://github.com/KartoffelChipss/NeutralFin/raw/main/assets/neutralfin-movie.webp" />
     </td>
   </tr>
 </table>

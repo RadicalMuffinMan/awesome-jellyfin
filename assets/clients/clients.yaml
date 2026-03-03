@@ -10,6 +10,20 @@ clients:
       - type: flathub
         package: com.github.iwalton3.jellyfin-media-player
 
+  - name: Coppelia
+    targets: [iOS, Android, Linux, macOS]
+    types: [Music]
+    oss: https://github.com/j6k4m8/coppelia
+    official: false
+    beta: true
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: github
+        owner: j6k4m8
+        repo: coppelia
+
   - name: "Swiftfin"
     targets: [iOS, AppleTV]
     oss: https://github.com/jellyfin/swiftfin
@@ -18,6 +32,15 @@ clients:
     downloads:
       - type: app-store
         id: "1604098728"
+
+  - name: "Sunkfin"
+    targets: [iOS]
+    oss: https://github.com/jackcrane/sunkfin
+    official: false
+    beta: false
+    downloads:
+      - type: app-store
+        id: "6743207349"
 
   - name: "Jellyfin Vue"
     targets: [Browser]
@@ -31,6 +54,17 @@ clients:
         url: https://github.com/jellyfin/jellyfin-vue/actions/workflows/release.yml
       - type: demo
         url: https://jf-vue.pages.dev/
+
+  - name: "Pelagica"
+    targets: [Browser]
+    oss: https://github.com/KartoffelChipss/pelagica
+    official: false
+    downloads:
+      - type: github
+        owner: KartoffelChipss
+        repo: pelagica
+      - type: demo
+        url: https://pelagica.jan.run
 
   - name: "JellyCon"
     targets: [Kodi]
@@ -318,6 +352,16 @@ clients:
         owner: prayag17
         repo: Blink
 
+  - name: "AFinity"
+    targets: [Android]
+    oss: https://github.com/MakD/AFinity
+    official: false
+    beta: true
+    downloads:
+      - type: github
+        owner: MakD
+        repo: AFinity
+
   - name: "Gelli"
     targets: [Android]
     types: [Music]
@@ -448,7 +492,7 @@ clients:
         id: "6738301953"
 
   - name: "Fladder"
-    targets: [Android, iOS, macOS, Windows, Linux, Browser]
+    targets: [Android, AndroidTV, iOS, macOS, Windows, Linux, Browser]
     oss: https://github.com/DonutWare/Fladder
     official: false
     beta: false
@@ -711,7 +755,7 @@ clients:
       - type: shield
         label: Microsoft Store
         url: https://apps.microsoft.com/detail/9nb0h051m4v4
-        
+
   - name: "JellyRock"
     targets: [Roku]
     oss: https://github.com/cewert/jellyrock
@@ -734,10 +778,12 @@ clients:
     official: false
     beta: false
     downloads:
+      - type: google-play
+        id: com.github.damontecres.wholphin
       - type: github
         owner: damontecres
         repo: Wholphin
-        
+
   - name: Void
     targets: [Android, AndroidTV]
     oss: https://github.com/hritwikjohri/Void-for-jellyfin
@@ -767,7 +813,36 @@ clients:
         owner: Fingel
         repo: gelly
       - type: flathub
-        package: io.m51.Gelly 
+        package: io.m51.Gelly
+
+  - name: "Moonfin"
+    targets: [AndroidTV, Roku, webOS, Tizen]
+    oss: https://github.com/Moonfin-Client
+    official: false    
+    price:
+      free: true
+      paid: false
+    downloads:
+      - 
+        type: github
+        owner: Moonfin-Client
+        repo: AndroidTV-FireTV
+        label: AndroidTV
+      - 
+        type: github
+        owner: Moonfin-Client
+        repo: Roku
+        label: Roku
+      - 
+        type: github
+        owner: Moonfin-Client
+        repo: webOS
+        label: webOS
+      - 
+        type: github
+        owner: Moonfin-Client
+        repo: Tizen
+        label: Tizen
 
   - name: "Moonfin"
     targets: [AndroidTV, Roku, webOS, Tizen]
@@ -811,6 +886,49 @@ clients:
       - type: github
         owner: rekkyrosso
         repo: ampcast
+
+  - name: "Aperture"
+    targets: [Browser]
+    oss: https://github.com/akhilmulpurii/aperture
+    official: false
+    beta: true
+    price:
+      free: true
+    downloads:
+      - type: github
+        owner: akhilmulpurii
+        repo: aperture
+
+  - name: "Mediora"
+    targets: [AppleTV]
+    website: https://github.com/ghobs91/mediora
+    oss: https://github.com/ghobs91/mediora
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: app-store
+        id: "6757345487"
+
+  - name: Yamby
+    targets: [Android, AndroidTV]
+    price:
+      free: true
+      paid: true
+    downloads:
+      - type: google-play
+        id: com.hush.yamby
+  
+  - name: JellySee
+    targets: [AppleTV]
+    official: false
+    beta: false
+    price:
+      free: false
+      paid: true
+    downloads:
+      - type: app-store
+        id: "6748783768"
 
 targets:
   - key: Browser
