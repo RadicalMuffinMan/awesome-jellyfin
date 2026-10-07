@@ -921,6 +921,8 @@ targets:
         mapped: "Roku"
       - name: Tizen
         mapped: "Tizen"
+      - name: Vega
+        mapped: "Vega"
       - name: WebOS
         mapped: "webOS"
 

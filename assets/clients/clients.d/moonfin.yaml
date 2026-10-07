@@ -1,6 +1,6 @@
 clients:
   - name: "Moonfin"
-    targets: [AndroidTV, Roku, webOS, Tizen, AppleTV, Browser, Windows, Linux, macOS, iOS, Android]
+    targets: [AndroidTV, Roku, webOS, Tizen, Vega, AppleTV, Browser, Windows, Linux, macOS, iOS, Android]
     oss: https://github.com/Moonfin-Client
     official: false    
     price:
